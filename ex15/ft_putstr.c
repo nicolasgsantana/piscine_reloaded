@@ -6,17 +6,17 @@
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 15:49:49 by nde-sant          #+#    #+#             */
-/*   Updated: 2025/07/09 15:50:56 by nde-sant         ###   ########.fr       */
+/*   Updated: 2025/07/09 15:55:11 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
 
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
 	int	i;
 
 	i = 0;
-	while(str[i] != '\0')
+	while (str[i] != '\0')
 		ft_putchar(str[i++]);
 }
