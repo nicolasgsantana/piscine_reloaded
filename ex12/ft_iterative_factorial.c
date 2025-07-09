@@ -6,11 +6,9 @@
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 15:18:39 by nde-sant          #+#    #+#             */
-/*   Updated: 2025/07/09 15:25:04 by nde-sant         ###   ########.fr       */
+/*   Updated: 2025/07/09 15:43:10 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_iterative_factorial(int nb)
 {
