@@ -1,2 +1,2 @@
 #!/bin/bash
-nmcli device show | grep -i hwaddr | awk '{print $2}'
+ifconfig | grep -i ether | awk '{print $2}'
