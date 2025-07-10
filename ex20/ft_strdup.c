@@ -6,11 +6,12 @@
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 12:29:48 by nde-sant          #+#    #+#             */
-/*   Updated: 2025/07/10 12:42:27 by nde-sant         ###   ########.fr       */
+/*   Updated: 2025/07/10 13:19:27 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
@@ -27,10 +28,13 @@ char	*ft_strdup(char *src)
 	char	*str;
 	int		i;
 
-	str = malloc(ft_strlen + 1 * sizeof(char));
+	str = malloc(ft_strlen(src) + 1 * sizeof(char));
 	i = 0;
-	while (src != '\0')
-		str[i] = src[i++];
+	while (src[i] != '\0')
+	{
+		str[i] = src[i];
+		i++;
+	}
 	str[i] = '\0';
 	return (str);
 }
