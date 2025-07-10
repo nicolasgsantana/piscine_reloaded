@@ -5,9 +5,9 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/10 14:45:15 by nde-sant          #+#    #+#             */
-/*   Updated: 2025/07/10 15:12:25 by nde-sant         ###   ########.fr       */
+/*   Created: 2025/07/10 15:31:20 by nde-sant          #+#    #+#             */
+/*   Updated: 2025/07/10 16:40:51 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#define ABS(Value) ((Value < 0) ? (Value *= -1) : (Value))
+#define ABS(Value) ((Value) < 0 ? -(Value) : (Value))
