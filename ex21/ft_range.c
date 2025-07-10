@@ -6,7 +6,7 @@
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 12:45:44 by nde-sant          #+#    #+#             */
-/*   Updated: 2025/07/10 13:01:32 by nde-sant         ###   ########.fr       */
+/*   Updated: 2025/07/10 14:43:54 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ int	*ft_range(int min, int max)
 	int	n;
 	int	i;
 
+	if (max - min <= 0)
+		return ((void *)0);
 	array = malloc((max - min) * sizeof(int));
 	n = min;
 	i = 0;
