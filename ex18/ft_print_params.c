@@ -24,7 +24,10 @@ void	ft_putstrnl(char *str)
 
 int	main(int argc, char **argv)
 {
-	while (argc > 1)
-		ft_putstrnl(argv[--argc]);
+	int	i;
+
+	i = 1;
+	while (i < argc)
+		ft_putstrnl(argv[i++]);
 	return (0);
 }
