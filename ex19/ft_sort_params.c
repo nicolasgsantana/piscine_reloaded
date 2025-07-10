@@ -6,11 +6,9 @@
 /*   By: nde-sant <nde-sant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 16:16:44 by nde-sant          #+#    #+#             */
-/*   Updated: 2025/07/09 16:36:26 by nde-sant         ###   ########.fr       */
+/*   Updated: 2025/07/10 12:12:34 by nde-sant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
 
 void	ft_putchar(char c);
 
@@ -40,7 +38,7 @@ int	main(int argc, char **argv)
 	int		i;
 	int		j;
 
-	i = 0;
+	i = 1;
 	while (i < argc)
 	{
 		j = i;
